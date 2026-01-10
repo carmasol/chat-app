@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function pageDashboard() {
+export default function PageDashboard() {
   return (
-    <div>pageDashboard</div>
+    <div>page Dashboard</div>
   )
 }
