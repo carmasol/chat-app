@@ -1,14 +1,14 @@
-"use client"
+"use client";
 
 
 import { IoIosHome } from "react-icons/io";
 import { FaCircleUser } from "react-icons/fa6";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function Nav() {
 
-    const router = userouter()
+    const router = useRouter();
 
     const goToDashboard = () => {
         router.push('/dashboard')
